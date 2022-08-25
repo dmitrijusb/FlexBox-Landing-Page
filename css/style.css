@@ -1,0 +1,46 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.section {
+  background-color: #1f2937;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo:link,
+.header-logo:visited {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  color: #f9faf8;
+}
+
+.main-nav-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.main-nav-list li a:link,
+.main-nav-list li a:visited {
+  text-decoration: none;
+  font-size: 16px;
+  color: #f9faf8;
+}
