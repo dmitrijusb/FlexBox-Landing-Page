@@ -81,7 +81,7 @@ header {
   background-color: #3882f6;
   color: #f9faf8;
   padding: 5px 30px;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
 }
 
@@ -137,6 +137,7 @@ header {
 .testimonial-section {
   background-color: #e5e7eb;
   padding: 80px;
+  margin-bottom: 60px;
 }
 
 .testimonial-container {
@@ -154,4 +155,25 @@ header {
 .testimonial-name {
   font-weight: 700;
   text-align: end;
+}
+
+/* CTA Section */
+
+.cta-section {
+  margin-bottom: 60px;
+}
+
+.cta-container {
+  display: flex;
+  background-color: #3882f6;
+  padding: 40px 80px;
+}
+
+.cta-heading,
+.cta-text {
+  color: #e5e7eb;
+}
+
+.cta-section .cta-btn {
+  border: 2px solid white;
 }
