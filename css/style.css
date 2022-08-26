@@ -11,7 +11,7 @@
   margin: 0 auto;
 }
 
-.section {
+.header-section {
   background-color: #1f2937;
 }
 
@@ -21,7 +21,7 @@
 
 /* Header */
 
-header {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -176,4 +176,13 @@ header {
 
 .cta-section .cta-btn {
   border: 2px solid white;
+}
+
+/* Footer Section */
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 30px 0;
 }
