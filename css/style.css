@@ -90,11 +90,14 @@
 }
 
 .hero-image-box {
-  display: flex;
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   color: #f9faf8;
-  background-color: grey;
+  background-color: grey; */
 }
 
 /* Features Section */
@@ -119,9 +122,34 @@
 }
 
 .feature-image {
+  width: 150px;
   height: 150px;
   border: 4px solid #3882f6;
   border-radius: 10px;
+}
+
+.figures-container .figure:nth-child(1) .feature-image {
+  background-image: url("../images/2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.figures-container .figure:nth-child(2) .feature-image {
+  background-image: url("../images/3.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.figures-container .figure:nth-child(3) .feature-image {
+  background-image: url("../images/4.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.figures-container .figure:nth-child(4) .feature-image {
+  background-image: url("../images/5.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .feature-image-text {
