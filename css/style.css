@@ -95,8 +95,9 @@ header {
 
 /* Features Section */
 
-.features-section {
+.feature-section {
   margin-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 .features-heading {
@@ -129,4 +130,28 @@ header {
 .feature-image-text {
   color: rgba(0, 0, 0, 0.622);
   text-align: center;
+}
+
+/* Testimonial */
+
+.testimonial-section {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+
+.testimonial-container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.testimonial-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.testimonial-name {
+  font-weight: 700;
+  text-align: end;
 }
